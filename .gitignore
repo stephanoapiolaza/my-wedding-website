@@ -1,6 +1,28 @@
-# Include your project-specific ignores in this file
-# Read about how to use .gitignore: https://help.github.com/articles/ignoring-files
-# Useful .gitignore templates: https://github.com/github/gitignore
-node_modules
-dist
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# ide
+.idea
+
 .cache
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# production
+/build
+
+# misc
+.DS_Store
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+#mountebank
+mb*.log
+mb*.pid
