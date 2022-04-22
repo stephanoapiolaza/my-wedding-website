@@ -13,5 +13,16 @@
   },
   "devDependencies": {
     "parcel-bundler": "^1.12.4"
+  },
+  "dependencies": {
+    "desandro-get-style-property": "^1.0.4",
+    "desandro-matches-selector": "^2.0.2",
+    "doc-ready": "^1.0.4",
+    "eventie": "^1.0.6",
+    "fizzy-ui-utils": "^3.0.0",
+    "get-size": "^3.0.0",
+    "jquery": "^3.6.0",
+    "masonry-layout": "^4.2.2",
+    "wolfy87-eventemitter": "^5.2.9"
   }
 }
