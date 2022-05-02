@@ -552,10 +552,16 @@
 		}
 	});
 
-	/* Music */
+  var scriptMusic = '<iframe width="560" height="315" src="https://www.youtube.com/embed/9T7J07LQffc" title="YouTube video player" frameBorder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>';
+  var once = false;
+  /* Music */
 	$('.gla_music_icon').on('click',function(){
+    if (!(once)) {
+      $('.gla_music_icon_cont').append(scriptMusic);
+      once = true;
+    }
 		$('.gla_music_icon_cont').fadeToggle();
-	});
+  });
 
  	/* Mobile Menu */
 
